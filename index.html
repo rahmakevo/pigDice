@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pig Dice fun</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+
+  <body>
+    <div class="container field">
+      <h3>Wanna play Pig Dice?</h3>
+
+      <div>
+        <form  id="intake">
+          <div class="form-group">
+            <label for="name">What is your name player 1?</label>
+            <input id="p1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="name">What is your name player 2?</label>
+            <input id="p2" class="form-control" type="text">
+          </div>
+
+
+          <button id="words" type="submit" class="btn btn-primary">Ok, let's actually play NOW!</button>
+<br>
+<br>
+
+
+      </div>
+
+
+
+
+      <form  id="intake1">
+      <div class="playField">
+        <div class="player1">
+
+        </div>
+        <h2>Player 1: <span id="player1name"></span> </h2>
+        <h3>Score: <span id="player1score"></span></h3>
+        <button id="roll1" type="submit" class="btn btn-primary">Roll the dice</button>
+<br>
+<br>
+<br>
+        <button id="hold1" type="submit" class="btn btn-primary">HOLD!</button>
+      </div>
+</form>
+  <form  id="intake2">
+      <div class="playField2">
+        <div class="player2">
+
+        </div>
+        <h2>Player 2: <span id="player2name"></span> </h2>
+        <h3>Score: <span id="player2score"></span></h3>
+
+        <button id="roll2" type="submit" class="btn btn-primary">Roll the dice</button>
+<br>
+<br>
+<br>
+        <button id="hold2" type="submit" class="btn btn-primary">HOLD!</button>
+      </div>
+<br>
+</form>
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
